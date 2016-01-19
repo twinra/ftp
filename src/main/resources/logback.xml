@@ -21,8 +21,9 @@
     </appender>
 
     <logger name="org.apache.mina.core" level="info" />
+    <logger name="com.github.twinra.ftpserver" level="debug" />
 
-    <root level="debug">
+    <root level="info">
         <appender-ref ref="SYSLOG" />
     </root>
 </configuration>
